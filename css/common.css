@@ -105,7 +105,7 @@ button:focus {
   fill: #f06218;
 }
 
-.feedback-form {
+.form {
   display: flex;
   flex-direction: column;
   max-width: 480px;
@@ -115,13 +115,13 @@ button:focus {
   border-radius: 4px;
 }
 
-.feedback-form label {
+.form label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
 
-.feedback-form button {
+.form button {
   padding: 8px 12px;
   font: inherit;
   cursor: pointer;

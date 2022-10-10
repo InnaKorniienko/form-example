@@ -1,44 +1,4 @@
-
-// const STORAGE_KEY = 'feedback-form-state';
-// const formData = {};
-
-// updateForm();
-
-// 
-
-// function onFormInput(e) {
-//     formData[e.target.name] = e.target.value;
-//     localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
-//     console.log(formData);
-// };
-
-// function onFormSubmit(e) {
-//     e.preventDefault();
-//     const {
-//         elements: { name, email, tel }
-//       } = e.target;
-          
-//       if (name.value ==="" || email.value === "" || tel.value === "") {
-//         return window.alert("Please fill in all the fields!");
-//       };
-
-//       if (name.value.length < 2 && email.value.length < 2 && tel.value.length < 2 ) {
-//         return window.alert("Value must be more than 2 symbols")
-//       };
-
-//       return window.alert("Form submitted successfully");
-
-//     console.log({'Name': name.value, 'Email': email.value, 'Tel': tel.value});
-//     formEl.reset();
-//     localStorage.removeItem(STORAGE_KEY);
-    
-// };
-
-
-
-
-
-const formEl = document.querySelector('.feedback-form');
+const formEl = document.querySelector('.form');
 console.log(formEl);
 
 const email = formEl.email.value;
